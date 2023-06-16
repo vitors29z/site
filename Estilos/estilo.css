@@ -1,0 +1,70 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #e6e6e6, #ffffff);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+th:first-child, td:first-child {
+  border-top-left-radius: 10px;
+}
+
+th:last-child, td:last-child {
+  border-top-right-radius: 10px;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1 {text-align: center; color: yellow; font-family: 'Times New Roman';}
+
+body {
+  background-color: #000000;
+  background-size: cover;
+  text-align: justify;
+  color: white;
+  font-family: 'Arial';
+}
+
+.tabela {
+  /* Estilo para a 'tabela'*/
+  border-collapse: collapse;
+  width: 100%;
+  background-color: gray;
+  border: 1px solid #dddddd;
+}
+
+.tabela th,
+.tabela td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+}
+
+.tabela th {
+  background-color: gray;
+  font-weight: bold;
+}
+
+.tabela td {
+  background-color: gray;
+}
+
+.tabela a {
+  text-decoration: none;
+  color: #000000;
+}
